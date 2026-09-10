@@ -1,0 +1,18 @@
+{
+  "1": {
+    "label": "5x",
+    "start_height_mm": 59.5,
+    "good_score": 8000000
+  },
+  "2": {
+    "label": "10x",
+    "start_height_mm": 59.0,
+    "good_score": 6000000
+  },
+  "3": {
+    "label": "20x",
+    "start_height_mm": 59.5,
+    "good_score": 8000000,
+    "brenner_step_mm": 0.035
+  }
+}

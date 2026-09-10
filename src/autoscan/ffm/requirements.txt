@@ -1,0 +1,17 @@
+# Detector core — pinned to match the joblib used for the shipped FP detector.
+# (Newer sklearn loads it but prints an InconsistentVersionWarning.)
+scikit-learn==1.3.0
+opencv-python==4.8.0.74
+numba==0.57.1
+scikit-image==0.21.0
+numpy==1.24.4
+joblib>=1.2
+
+# GUI
+Pillow>=9.0
+
+# Demo-mode perceptual hashing
+ImageHash>=4.3.0
+
+# Optional but recommended: enables drag-and-drop. Falls back gracefully if absent.
+tkinterdnd2>=0.3.0
