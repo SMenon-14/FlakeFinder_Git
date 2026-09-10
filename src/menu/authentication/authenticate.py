@@ -1,7 +1,8 @@
 import requests
 import secrets
 
-API_KEY = "AIzaSyDLiNcnTrxcZ6njNb6pLD4jK_GpGbcz6Bg"  # safe to include in the exe
+
+API_KEY = "NOT THE REAL KEY"  # safe to include in the exe
 
 def sign_in(email, password):
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API_KEY}"

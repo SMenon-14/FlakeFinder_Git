@@ -2,7 +2,7 @@ import requests
 
 # Replace with your actual Firebase Web API Key
 # Found in Firebase Console -> Project Settings -> General
-API_KEY = "AIzaSyDLiNcnTrxcZ6njNb6pLD4jK_GpGbcz6Bg"
+API_KEY = "NOT THE REAL KEY"
 
 def check_credentials(username, password):
     """
